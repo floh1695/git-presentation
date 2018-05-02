@@ -11,6 +11,8 @@ Preperation work for my Git presentation will be living here.
 2. Fetch
     - Show as a part of Pull
 
+
+
 3. Rebase
     - Show in relation to Merge
         - Merge stores history as developed
