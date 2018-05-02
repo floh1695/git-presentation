@@ -1,6 +1,7 @@
 # Git Presentation
 
 Preperation work for my Git presentation will be living here.
+
 ---
 
 ## Main Topics
