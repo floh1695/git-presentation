@@ -1,5 +1,7 @@
-# Git Topics
+# Git Presentation
 ---
+
+## Main Topics
 
 1. Stash
 
@@ -11,7 +13,7 @@
     - Merge stores history as developed
     - Rebase combines history into one unified line
 
-## Potential Ideas
+## Potential Topics
 
 1. Different git interfaces
   - Graphical front-end interfaces
