@@ -13,8 +13,8 @@ Preperation work for my Git presentation will be living here.
 2. Fetch
     - Show as a part of Pull
         - Pull breakdown
-	    1. Fetch branch
-	    2. Merge branch
+            1. Fetch branch
+            2. Merge branch
 
 3. Rebase
     - Show in relation to Merge
