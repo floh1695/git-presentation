@@ -6,9 +6,10 @@ Preperation work for my Git presentation will be living here.
 
 ## Main Topics
 
-1. Stash
-    - What is it
-    - Why should you use it
+1. Rebase
+    - Show in relation to Merge
+        - Merge stores history as developed
+        - Rebase combines history into one unified line
 
 2. Fetch
     - Show as a part of Pull
@@ -16,10 +17,9 @@ Preperation work for my Git presentation will be living here.
             1. Fetch branch
             2. Merge branch
 
-3. Rebase
-    - Show in relation to Merge
-        - Merge stores history as developed
-        - Rebase combines history into one unified line
+3. Stash
+    - What is it
+    - Why should you use it
 
 ## Potential Topics
 
