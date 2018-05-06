@@ -50,7 +50,9 @@ Below is an example of this happening.
 ![simple rebasing](./images/rebase-simple.png)
 
 As you can see, the commit where the branch used to be has been orphaned with a copy of that commit after master.
-Something important to note, after the rebase, the branch rebased onto does not advance onto the rebased commits so you must merge up manually.
+Something important to note, after the rebase, the branch rebased onto does not advance onto the rebased commits.
+Because of this you have to merge the branches manually.
+Don't worry though, if you do it right away you will get a fast forward merge like I was talking about earlier.
 
 #### Which one should I use?
 
