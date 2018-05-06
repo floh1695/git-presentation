@@ -154,13 +154,49 @@ function rebase-complex ()
   echo -e '--- REBASE_COMPLEX --- END ---\n'
 }
 
+function pull-simple ()
+{
+  echo '--- PULL_SIMPLE --- START ---'
+
+  local origin='origin.git'
+  local repo1='repo1'
+  local repo2='repo2'
+
+  mkdir -p $origin
+  mkdir -p $repo1
+  mkdir -p $repo2
+
+  pushd $origin > /dev/null
+    git init --bare
+  popd > /dev/null
+
+  pushd $repo1 > /dev/null
+    git clone "../$origin" .
+    git_config
+
+    git_commit
+  popd > /dev/null
+
+  pushd $repo2 > /dev/null
+    git clone "../$origin" .
+  popd > /dev/null
+
+  echo -e '--- PULL_SIMPLE -- END ---\n'
+}
+
 function mkrepos ()
 {
-  wrapd 'repo-a' repo-a
-  wrapd 'merge-simple' merge-simple
+  # Testing repo only
+  #wrapd 'repo-a' repo-a
+  
+  # Comparison of merge and rebase
+  #wrapd 'merge-simple' merge-simple
   wrapd 'rebase-simple' rebase-simple
-  wrapd 'merge-complex' merge-complex
-  wrapd 'rebase-complex' rebase-complex
+  #wrapd 'merge-complex' merge-complex
+  #wrapd 'rebase-complex' rebase-complex
+
+  # Replicating pull with fetch and merge
+  wrapd 'pull-simple' pull-simple
 }
 
 repos_dir='repos'
