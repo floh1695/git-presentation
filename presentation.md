@@ -3,8 +3,8 @@
 ## What you'll learn
 
 1. What is branching?
-    1. What is rebasing?
-    2. What is fetching?
+    1. What is merge?
+    2. What is rebase?
 <!-- 4. What is pulling? -->
 <!-- 5. What is stashing? -->
 
